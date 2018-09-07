@@ -1,0 +1,44 @@
+java.lang.Throwable: Error: Expected true, found false
+	at SUnit.assertTrue(SUnit.java:29)
+	at SUnitTest.testAssertTrue(SUnitTest.java:152)
+	at SUnitTest.main(SUnitTest.java:55)
+java.lang.Throwable: Error: Expected false, found true
+	at SUnit.assertFalse(SUnit.java:40)
+	at SUnitTest.testAssertFalse(SUnitTest.java:163)
+	at SUnitTest.main(SUnitTest.java:57)
+java.lang.Throwable: Error: Expected 9876543210, found 9876543211
+	at SUnit.assertEquals(SUnit.java:50)
+	at SUnitTest.testAssertEqualsLong(SUnitTest.java:174)
+	at SUnitTest.main(SUnitTest.java:59)
+java.lang.Throwable: Error: Expected 0.123456 +/-1.0E-6, found 0.1234571
+	at SUnit.assertEquals(SUnit.java:61)
+	at SUnitTest.testAssertEqualsDouble(SUnitTest.java:189)
+	at SUnitTest.main(SUnitTest.java:61)
+java.lang.Throwable: Error: Expected -100.0 +/-10.0, found -110.1
+	at SUnit.assertEquals(SUnit.java:61)
+	at SUnitTest.testAssertEqualsDouble(SUnitTest.java:201)
+	at SUnitTest.main(SUnitTest.java:61)
+java.lang.Throwable: Error: Expected object equality, found inequality
+	at SUnit.assertEqualsObject(SUnit.java:73)
+	at SUnitTest.testAssertEqualsObject(SUnitTest.java:216)
+	at SUnitTest.main(SUnitTest.java:63)
+java.lang.Throwable: Error: Expected object equality, found inequality
+	at SUnit.assertEqualsObject(SUnit.java:73)
+	at SUnitTest.testAssertEqualsObject(SUnitTest.java:220)
+	at SUnitTest.main(SUnitTest.java:63)
+java.lang.Throwable: Error: Expected reference equality, found inequality
+	at SUnit.assertEqualsReference(SUnit.java:85)
+	at SUnitTest.testAssertEqualsReference(SUnitTest.java:239)
+	at SUnitTest.main(SUnitTest.java:65)
+java.lang.Throwable: Error: Expected null, found non-null
+	at SUnit.assertNull(SUnit.java:96)
+	at SUnitTest.testAssertNull(SUnitTest.java:254)
+	at SUnitTest.main(SUnitTest.java:67)
+java.lang.Throwable: Error: Expected non-null, found null
+	at SUnit.assertNotNull(SUnit.java:107)
+	at SUnitTest.testAssertNotNull(SUnitTest.java:269)
+	at SUnitTest.main(SUnitTest.java:69)
+java.lang.Throwable: Error: Explicit failure
+	at SUnit.fail(SUnit.java:116)
+	at SUnitTest.testFail(SUnitTest.java:276)
+	at SUnitTest.main(SUnitTest.java:71)
